@@ -7,7 +7,7 @@ public class UserData {
     private int eta;
 
 
-    private void getData(DataSource ds){
+    public void getData(DataSource ds){
         nomeCompleto= ds.getNomeCompleto();
         eta = ds.getEta();
     }
